@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "inter";
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'inter', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    position: absolute;
+ 
+    width: 300px;
+    background: #3a3a3a;
+    font-size: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  }
+    
+  
+  nav a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav li {
+    position: relative;
+    float: left;
+    width: 100%;
+    list-style: none;
+    color: #fff;
+    transition: 0.5s;
+    border-top: 1px solid #555;
+  }
+  
+
+  
+  nav li:hover {
+    background: #f7b32ac2 !important;
+  }
+  
+
+  
